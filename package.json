@@ -4,7 +4,9 @@
   "description": "app using FP with nodejs &amp; TS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "nodemon",
+    "build": "rm -rf ./build && tsc",
+    "start": "npm run build && node build/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,11 @@
   "homepage": "https://github.com/ImrulSheikh/app-fp-nodejs-ts#readme",
   "dependencies": {
     "fastify": "^3.22.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "nodemon": "^2.0.14",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
   }
 }
