@@ -1,0 +1,22 @@
+{
+  "name": "app-fp-nodejs-ts",
+  "version": "1.0.0",
+  "description": "app using FP with nodejs &amp; TS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImrulSheikh/app-fp-nodejs-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImrulSheikh/app-fp-nodejs-ts/issues"
+  },
+  "homepage": "https://github.com/ImrulSheikh/app-fp-nodejs-ts#readme",
+  "dependencies": {
+    "fastify": "^3.22.1"
+  }
+}
